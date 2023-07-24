@@ -38,10 +38,10 @@ class Smartphone(BasicDevice, BasicCallingDevice, BasicSMSDevice, BasicInternetD
         print('Calling...')
 
     def send_sms(self):
-        print('Sending SMS')
+        print('Sending SMS...')
 
     def internet_connect(self):
-        print('Connecting to the Internet')
+        print('Connecting to the Internet...')
 
 
 phone1 = Smartphone('Samsung', 2007)
